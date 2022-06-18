@@ -79,7 +79,7 @@ export const dotsData = [
         x: 40,
         y: 60,
         color: "rgb(209, 50, 103)",
-        description: "Basic level. Had experience in working on CRUD functions. Able to learn and develop my knowledge quickly on C#."
+        description: "Basic level. Had experience in working on CRUD functions. Able to learn and develop my knowledge quickly on PHP."
     },
     {
         title: "NodeJS",
