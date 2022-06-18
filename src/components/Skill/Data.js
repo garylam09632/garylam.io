@@ -75,11 +75,11 @@ export const dotsData = [
                         "games using Python."
     },
     {
-        title: "Bootstrap",
-        x: 58,
-        y: 86,
+        title: "PHP",
+        x: 40,
+        y: 60,
         color: "rgb(209, 50, 103)",
-        description: "Same as CSS. Not a master on design but \nI can achieve fancy design by bootstrap & css."
+        description: "Basic level. Had experience in working on CRUD functions. Able to learn and develop my knowledge quickly on C#."
     },
     {
         title: "NodeJS",
@@ -101,7 +101,7 @@ export const dotsData = [
         y: 65,
         color: "rgb(78, 28, 216)",
         description: "It will be a challenge for IOS development but I am confident that \n"+ 
-                        "I believe I am able to develop my skills on Swift quickly." 
+                        "I am able to develop my skills on Swift quickly." 
     },
     {
         title: "AWS",

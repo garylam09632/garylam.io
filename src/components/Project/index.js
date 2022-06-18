@@ -17,9 +17,6 @@ import {
     ProjectVideoBg
 } from './ProjectElements.js'
 import { projectData } from './Data'
-import FBK from '../../videos/shirakami_fubuki.mp4'
-import Lamy from '../../videos/lamy.mp4'
-import EDMSDemo from '../../videos/edms-demo.mp4'
 
 class Project extends Component {
 
@@ -124,7 +121,7 @@ class Project extends Component {
                 <ProjectSmallTitle>{ project.title }</ProjectSmallTitle>
                 <ProjectContent>{ project.description }</ProjectContent>
                 <ProjectVideoContainer>
-                    <ProjectVideoBg autoPlay playsInline loop muted src={ project.src } type="video/mp4" />
+                    <ProjectVideoBg autoPlay playsInline loop muted src={ process.env.PUBLIC_URL + '/videos/' + project.src } type="video/mp4" />
                 </ProjectVideoContainer>
             </ProjectContainer>
         );

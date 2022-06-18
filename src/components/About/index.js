@@ -13,6 +13,7 @@ import {
     FileName,
     Code
 } from './AboutElements'
+// import Pdf from '../../documents/resume.pdf'
 import Button from '../Button'
 
 class About extends Component {
@@ -51,7 +52,7 @@ class About extends Component {
 
         // Redirect to resume page
         $('#resume-btn').on('click', function() {
-            window.open(window.location.href + "resume.pdf", '_blank')
+            window.open(process.env.PUBLIC_URL + '/documents/resume.pdf', '_blank')
         })
 
         // const isScrolledToThisPage = function() {
@@ -90,7 +91,8 @@ class About extends Component {
                             I'm eager to learn, to gain practical experience from development process, to engage in projects and
                             ultimately, build something that can inspire people a new way to live.
                         </AboutContent>
-                        <Button id={"resume-btn"} text={"resume"} padding={"23px 160px"} />
+                        <Button id={"resume-btn"}　href={process.env.PUBLIC_URL + '/documents/resume.pdf'} 
+                                    target={"_blank"} text={"resume"} padding={"23px 160px"} />
                     </Col>
                     <Col xs={6} sm={6} md={6} lg={6} id="code-col">
                         <ProgramWrapper id="code-content">

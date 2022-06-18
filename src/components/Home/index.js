@@ -18,6 +18,7 @@ import Button from '../Button'
 class Home extends Component {
 
     componentDidMount() {
+
         // Get the elements that need to resize by media queries
         // bigSlogan is also for adding the typing animation
         var bigSloganCol = document.getElementById('big-slogan-col')
