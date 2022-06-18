@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/garylam.io/static/css/main.d852d755.chunk.css",
-    "main.js": "/garylam.io/static/js/main.0b044e78.chunk.js",
-    "main.js.map": "/garylam.io/static/js/main.0b044e78.chunk.js.map",
-    "runtime-main.js": "/garylam.io/static/js/runtime-main.69e7207c.js",
-    "runtime-main.js.map": "/garylam.io/static/js/runtime-main.69e7207c.js.map",
-    "static/js/2.69aef803.chunk.js": "/garylam.io/static/js/2.69aef803.chunk.js",
-    "static/js/2.69aef803.chunk.js.map": "/garylam.io/static/js/2.69aef803.chunk.js.map",
-    "static/js/3.3639a05b.chunk.js": "/garylam.io/static/js/3.3639a05b.chunk.js",
-    "static/js/3.3639a05b.chunk.js.map": "/garylam.io/static/js/3.3639a05b.chunk.js.map",
-    "index.html": "/garylam.io/index.html",
-    "static/css/main.d852d755.chunk.css.map": "/garylam.io/static/css/main.d852d755.chunk.css.map",
-    "static/js/2.69aef803.chunk.js.LICENSE.txt": "/garylam.io/static/js/2.69aef803.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/garylam.io/static/media/logo.6ce24c58.svg",
-    "static/media/wechat_qrcode.002951f0.png": "/garylam.io/static/media/wechat_qrcode.002951f0.png"
+    "main.css": "/static/css/main.d852d755.chunk.css",
+    "main.js": "/static/js/main.b8a73fe1.chunk.js",
+    "main.js.map": "/static/js/main.b8a73fe1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e965b6c5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e965b6c5.js.map",
+    "static/js/2.4548e948.chunk.js": "/static/js/2.4548e948.chunk.js",
+    "static/js/2.4548e948.chunk.js.map": "/static/js/2.4548e948.chunk.js.map",
+    "static/js/3.3639a05b.chunk.js": "/static/js/3.3639a05b.chunk.js",
+    "static/js/3.3639a05b.chunk.js.map": "/static/js/3.3639a05b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.d852d755.chunk.css.map": "/static/css/main.d852d755.chunk.css.map",
+    "static/js/2.4548e948.chunk.js.LICENSE.txt": "/static/js/2.4548e948.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg",
+    "static/media/wechat_qrcode.002951f0.png": "/static/media/wechat_qrcode.002951f0.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.69e7207c.js",
-    "static/js/2.69aef803.chunk.js",
+    "static/js/runtime-main.e965b6c5.js",
+    "static/js/2.4548e948.chunk.js",
     "static/css/main.d852d755.chunk.css",
-    "static/js/main.0b044e78.chunk.js"
+    "static/js/main.b8a73fe1.chunk.js"
   ]
 }
