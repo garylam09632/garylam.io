@@ -3,6 +3,7 @@ import { BsPerson } from 'react-icons/bs'
 import { AiOutlineHome, AiOutlineFolderOpen } from 'react-icons/ai'
 import { RiSettingsLine } from 'react-icons/ri'
 import { BiMailSend } from 'react-icons/bi'
+import { BsPeople } from 'react-icons/bs';
 import { 
     SidebarContainer, 
     Icon,
@@ -35,6 +36,10 @@ const Sidebar = ({ isOpen, toggle }) => {
                     <SidebarLink to="project-container" onClick={toggle} 
                         title="About" offset={-80} smooth={true} duration={350} spy={true}>
                         <AiOutlineFolderOpen className="icon"/>Projects
+                    </SidebarLink>
+                    <SidebarLink to="working-experience-container" onClick={toggle} 
+                        title="About" offset={-80} smooth={true} duration={350} spy={true}>
+                        <BsPeople className="icon"/>Working Experience
                     </SidebarLink>
                     <SidebarLink to="contact-container" onClick={toggle} 
                         title="About" offset={-80} smooth={true} duration={350} spy={true}>

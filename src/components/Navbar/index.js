@@ -5,6 +5,7 @@ import { BsPerson } from 'react-icons/bs'
 import { AiOutlineHome, AiOutlineFolderOpen } from 'react-icons/ai'
 import { RiSettingsLine } from 'react-icons/ri'
 import { BiMailSend } from 'react-icons/bi'
+import { BsPeople } from 'react-icons/bs';
 import { 
     Nav, 
     NavbarContainer,
@@ -48,6 +49,11 @@ const Navbar = ( {toggle} ) => {
                         <NavItem>
                             <NavLink to="project-container" title="Projects" smooth={true} duration={350} spy={true}>
                                 <AiOutlineFolderOpen />
+                            </NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink to="working-experience-container" title="Projects" smooth={true} duration={350} spy={true}>
+                                <BsPeople />
                             </NavLink>
                         </NavItem>
                         <NavItem>

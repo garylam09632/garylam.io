@@ -15,6 +15,7 @@ import {
     FrameworkText,
     SocialLink,
 } from './FooterElements'
+import packageJson from '../../../package.json';
 import QRCode from '../../images/wechat_qrcode.png'
 
 class Footer extends Component {
@@ -38,8 +39,8 @@ class Footer extends Component {
                         </Col>
                         <Col xs={6} sm={6} md={6} lg={6}>
                             <ContentContainer>
-                                <FrameworkText>This website is built by</FrameworkText>
-                                <FrameworkLogo src={ logo } id="react-logo" alt="React Logo" />
+                                <FrameworkText>v{packageJson.version}</FrameworkText>
+                                {/* <FrameworkLogo src={ logo } id="react-logo" alt="React Logo" /> */}
                             </ContentContainer>
                         </Col>
                         <Col id="social-links-col" xs={3} sm={3} md={3} lg={3}>

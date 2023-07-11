@@ -73,7 +73,7 @@ export const MobileIcon = styled.div`
 export const NavMenu = styled.ul`
     width: 100%;
     height: 70%;
-    padding: 32vh 1px 0px 23px;
+    padding: 29vh 1px 0px 23px;
     display: block;
     align-items: center;
     list-style: none;

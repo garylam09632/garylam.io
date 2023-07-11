@@ -21,50 +21,51 @@ export const dotsData = [
         color: "rgb(248, 212, 8)",
         description: "Feel confidence to engage Java based project."
     },
-    {
-        title: "C#",
-        x: 30,
-        y: 76,
-        color: "rgb(45, 92, 243)",
-        description: "Able to learn and develop my knowledge quickly on C#."
-    },
+    // {
+    //     title: "C#",
+    //     x: 30,
+    //     y: 76,
+    //     color: "rgb(45, 92, 243)",
+    //     description: "Able to learn and develop my knowledge quickly on C#."
+    // },
     {
         title: "C++",
         x: 68,
         y: 62,
         color: "rgba(75, 192, 192, 0.6)",
-        description: "Intermediate level. \nBut I am welcome for any challenges on C++."
+        description: "Intermediate level\nBut I am welcome for any challenges on C++."
     },
     {
         title: "JavaScript",
         x: 90,
-        y: 90,
+        y: 83,
         color: "rgb(212, 31, 31)",
         description: "Able to apply all the different tools arounds to achieve goals by JS."
     },
     {
         title: "ReactJS",
-        x: 43,
-        y: 74,
+        x: 95,
+        y: 95,
         color: "rgb(65, 156, 156)",
-        description: "Impressive framework with tons of customize packages. \n" + 
-        "Happy to learn further and engage in React project."
+        description: "My major language for web development.\nHighly understanding of React mechanism" + 
+            " and able to apply professional react techniques into projects"
     },
     {
         title: "Django",
         x: 47,
         y: 63,
         color: "rgb(233, 174, 85)",
-        description: "Basic to Intermediate level. Had experience in create basic\n" + 
+        description: "Basic to Intermediate level\nHad experience in create basic\n" + 
                         "web routing and REST API to interact with database server." 
     },
     {
-        title: "SQL",
-        x: 43,
-        y: 57,
+        title: "Database (SQL)",
+        x: 85,
+        y: 85,
         color: "rgb(87, 205, 221)",
-        description: "Intermediate level on SQL query & store procedure.\n" + 
-        "Had experience in create a local database by PostgreSQL."
+        description: "High level\nHad working experience in designing database schema according to requirements.\n" +
+            "Good at data Analysis especially observing data pattern.\nAble to write complex query\n" + 
+            "Majorly using MySQL and interest to learn NoSQL\n"
     },
     {
         title: "Python",
@@ -79,35 +80,36 @@ export const dotsData = [
         x: 40,
         y: 60,
         color: "rgb(209, 50, 103)",
-        description: "Basic level. Had experience in working on CRUD functions. Able to learn and develop my knowledge quickly on PHP."
+        description: "Basic level\nHad experience in working on CRUD functions. Able to learn and develop my knowledge quickly on PHP."
     },
     {
         title: "NodeJS",
-        x: 27,
-        y: 61,
+        x: 75,
+        y: 90,
         color: "rgb(55, 177, 44)",
-        description: "With experience of building a simple blog page with NodeJS."
+        description: "High level\nWorking experience in developing NodeJS Server & APIs from scratch\n" + 
+            "Currently using NodeJS Framework (e.g MidwayJS) for server development"
     },
-    {
-        title: "ASP.NET",
-        x: 39,
-        y: 53,
-        color: "rgb(38, 235, 143)",
-        description: "Had experience in Web Forms, Templates, APIs" 
-    },
-    {
-        title: "Swift",
-        x: 40,
-        y: 65,
-        color: "rgb(78, 28, 216)",
-        description: "It will be a challenge for IOS development but I am confident that \n"+ 
-                        "I am able to develop my skills on Swift quickly." 
-    },
+    // {
+    //     title: "ASP.NET",
+    //     x: 39,
+    //     y: 53,
+    //     color: "rgb(38, 235, 143)",
+    //     description: "Had experience in Web Forms, Templates, APIs" 
+    // },
+    // {
+    //     title: "Swift",
+    //     x: 40,
+    //     y: 65,
+    //     color: "rgb(78, 28, 216)",
+    //     description: "It will be a challenge for IOS development but I am confident that \n"+ 
+    //                     "I am able to develop my skills on Swift quickly." 
+    // },
     {
         title: "AWS",
-        x: 25,
-        y: 35,
+        x: 45,
+        y: 42,
         color: "rgb(245, 132, 2)",
-        description:  "Had experience in S3 bucket, Cognito & Amplify Auth, AWS API."
+        description:  "Had experience in EC2 instance, S3 bucket, Cognito & Amplify Auth, AWS API."
     }
 ]

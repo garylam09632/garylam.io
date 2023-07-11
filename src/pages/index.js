@@ -7,6 +7,7 @@ import Skill from '../components/Skill'
 import Project from '../components/Project'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
+import WorkingExperience from '../components/WorkingExperience'
 import { ContentContainer, BlankArea } from './MasterElements'
 import { Container } from 'react-bootstrap'
 
@@ -29,6 +30,7 @@ const Master = () => {
                 <About />
                 <Skill />
                 <Project />
+                <WorkingExperience />
                 <Contact />
                 <BlankArea height={"150px"}><Container fluid /></BlankArea>
                 <Footer />
