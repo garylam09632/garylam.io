@@ -90,6 +90,14 @@ export const dotsData = [
         description: "High level\nWorking experience in developing NodeJS Server & APIs from scratch\n" + 
             "Currently using NodeJS Framework (e.g MidwayJS) for server development"
     },
+    {
+        title: "Typescript",
+        x: 74,
+        y: 85,
+        color: "rgb(78, 28, 216)",
+        description: "Majorly used in ReactJS and NodeJS. Strongly typed framework keeps thing well-managed and well-structured\n" + 
+            "which really suitable for me and I like to develop with Typescript." 
+    },
     // {
     //     title: "ASP.NET",
     //     x: 39,

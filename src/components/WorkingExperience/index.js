@@ -127,7 +127,11 @@ class WorkingExperience extends Component {
                 <WorkingExperienceContentWrapper>
                     <WorkingExperienceContentContainer>
                         <WorkingExperienceContentSubTitle>About</WorkingExperienceContentSubTitle>
-                        <WorkingExperienceContent>{ project.about }</WorkingExperienceContent>
+                        {
+                            project.about.map((text) => (
+                                <WorkingExperienceContent>{text}</WorkingExperienceContent>
+                            ))
+                        }
                     </WorkingExperienceContentContainer>
                     <WorkingExperienceContentContainer>
                         <WorkingExperienceContentSubTitle>Role</WorkingExperienceContentSubTitle>
